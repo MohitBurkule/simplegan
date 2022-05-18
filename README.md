@@ -18,16 +18,15 @@ Make sure you have the following packages installed
 
 ### Installation
 
-Latest stable release:
-
-```bash
-  $ pip install simplegan
-```
 
 Latest Development release:
 
 ```bash
   $ pip install git+https://github.com/mohitburkule/simplegan.git
+  
+  or 
+  
+  pip install --user --force-reinstall git+https://github.com/mohitburkule/simplegan.git
 ```
 
 ### Getting Started

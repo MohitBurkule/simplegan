@@ -552,7 +552,7 @@ class CycleGAN(Pix2Pix):
                             "Discriminator_Y_loss", disc_y_loss.numpy(), step=steps
                         )
 
-            if epoch % save_img_per_epoch == 0:
+            if save_img_per_epoch and (epoch % save_img_per_epoch == 0):
                 for image in testA.take(1):
                     self._save_samples(self.gen_model_g, image, str(epoch))
 

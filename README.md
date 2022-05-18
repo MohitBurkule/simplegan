@@ -27,7 +27,7 @@ Latest stable release:
 Latest Development release:
 
 ```bash
-  $ pip install git+https://github.com/grohith327/simplegan.git
+  $ pip install git+https://github.com/mohitburkule/simplegan.git
 ```
 
 ### Getting Started

@@ -1,5 +1,5 @@
 tqdm
-tensorflow
+tensorflow-cpu
 opencv-python-headless
 tensorflow-datasets
 imageio
